@@ -24,7 +24,13 @@ return require('packer').startup(function(use)
   use 'svrana/neosolarized.nvim'
   use 'norcalli/nvim-colorizer.lua'
   use 'dinhhuy258/git.nvim'
-  
+  use 'windwp/nvim-autopairs'
+  use 'windwp/nvim-ts-autotag'
+  use({
+    "williamboman/mason.nvim",
+    "williamboman/mason-lspconfig.nvim",
+      "neovim/nvim-lspconfig",
+  })
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
