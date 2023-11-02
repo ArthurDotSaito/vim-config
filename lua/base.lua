@@ -1,0 +1,2 @@
+print('base')
+require('base')
