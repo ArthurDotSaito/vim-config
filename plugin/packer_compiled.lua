@@ -74,20 +74,40 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  catppuccin = {
+    loaded = true,
+    path = "/home/arthur/.local/share/nvim/site/pack/packer/start/catppuccin",
+    url = "https://github.com/catppuccin/nvim"
+  },
+  ["colorbuddy.nvim"] = {
+    loaded = true,
+    path = "/home/arthur/.local/share/nvim/site/pack/packer/start/colorbuddy.nvim",
+    url = "https://github.com/tjdevries/colorbuddy.nvim"
+  },
   ["dracula.nvim"] = {
     loaded = true,
     path = "/home/arthur/.local/share/nvim/site/pack/packer/start/dracula.nvim",
     url = "https://github.com/Mofiqul/dracula.nvim"
   },
-  ["gruvbox.nvim"] = {
+  ["git.nvim"] = {
     loaded = true,
-    path = "/home/arthur/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
-    url = "https://github.com/ellisonleao/gruvbox.nvim"
+    path = "/home/arthur/.local/share/nvim/site/pack/packer/start/git.nvim",
+    url = "https://github.com/dinhhuy258/git.nvim"
   },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/home/arthur/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
+  ["neosolarized.nvim"] = {
+    loaded = true,
+    path = "/home/arthur/.local/share/nvim/site/pack/packer/start/neosolarized.nvim",
+    url = "https://github.com/svrana/neosolarized.nvim"
+  },
+  ["nvim-colorizer.lua"] = {
+    loaded = true,
+    path = "/home/arthur/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua",
+    url = "https://github.com/norcalli/nvim-colorizer.lua"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
