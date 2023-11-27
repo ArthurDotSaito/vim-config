@@ -1,5 +1,5 @@
-local status, autotag = pcall(require, "nvim-ts-autotag")
+local status, autopair = pcall(require, "nvim-autpairs")
 if (not status) then return end
 
-autotag.setup({})
+autopair.setup({})
 

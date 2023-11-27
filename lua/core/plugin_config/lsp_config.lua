@@ -4,12 +4,13 @@ require("mason-lspconfig").setup({
     "lua_ls", 
     "solargraph", 
     "tsserver",
-    "clangd", 
-    "cssls", 
+    "clangd",
+    "cssls",
     "golangci_lint_ls", 
     "jsonls", 
     "sqlls",
-    "html"  
+    "html",
+    "clangd"
   }
 })
 
@@ -22,6 +23,7 @@ require("lspconfig").golangci_lint_ls.setup {}
 require("lspconfig").jsonls.setup {}
 require("lspconfig").sqlls.setup {}
 require("lspconfig").html.setup {}
+require("lspconfig").clangd.setup {}
 
 vim.api.nvim_create_autocmd('LspAttach', {
   group = vim.api.nvim_create_augroup('UserLspConfig', {}),
